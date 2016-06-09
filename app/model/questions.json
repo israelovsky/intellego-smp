@@ -1,0 +1,43 @@
+[
+  {
+    "numberQuestion": 1,
+    "textQuestion": "¿Pregunta 1?",
+    "textQuestionCont": {
+      "1": "respuesta1",
+      "2": "respuesta2",
+      "3": "respuesta3",
+      "4": "respuesta4"
+    },
+    "createdAt": "2016-06-02T02:24:08.279Z",
+    "updatedAt": "2016-06-06T22:53:52.917Z",
+    "questionContest": true,
+    "id": "574f98c8285a18d482f8f5eb"
+  },
+  {
+    "numberQuestion": 2,
+    "textQuestion": "¿Pregunta 2?",
+    "textQuestionCont": {
+      "1": "respuesta1",
+      "2": "respuesta2",
+      "3": "respuesta3",
+      "4": "respuesta4"
+    },
+    "createdAt": "2016-06-02T02:24:08.286Z",
+    "updatedAt": "2016-06-02T02:24:08.286Z",
+    "id": "574f98c8285a18d482f8f5ec"
+  },
+  {
+    "numberQuestion": 3,
+    "textQuestion": "¿Pregunta 3?",
+    "textQuestionCont": {
+      "1": "respuesta1",
+      "2": "respuesta2",
+      "3": "respuesta3",
+      "4": "respuesta4"
+    },
+    "createdAt": "2016-06-02T02:24:08.289Z",
+    "updatedAt": "2016-06-03T02:03:23.347Z",
+    "questionContest": true,
+    "id": "574f98c8285a18d482f8f5ed"
+  }
+]

@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
+    <!-- 
+    <script src="https://maps.googleapis.com/maps/api/js"></script> -->
+    <script src="js/vendor/pouchdb-5.1.0.min.js"></script>
+    <script src="js/vendor/pouchdb.relational-pouch.js"></script>
+    <script src="js/vendor/pouchdb.find.js"></script>
+    <script src="js/vendor/moment.min.js"></script>
+    <script src="js/vendor/underscore-min.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="cordova.js"></script>
+    <!--  <script src="resources/sap-ui-core.js" id="sap-ui-bootstrap" data-sap-ui-libs="sap.m,sap.ui.commons" data-sap-ui-theme="sap_bluecrystal" data-sap-ui-resourceroots='{"com.gentera":"./","originacion":"originacion","js":"js"}'>
+    </script>-->
+    <!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+    <!--
+    <script>
+    new sap.m.Shell("Shell", {
+        title: "AO",
+        app: new sap.ui.core.ComponentContainer({
+            name: 'com.gentera'
+        })
+    }).placeAt("content");
+    </script>-->
+</head>
+
+<body class="sapUiBody" role="application">
+    <div id="preloader">
+        <div>
+            <img class="preloader-logo" src="img/logo.png" alt="">
+        </div>
+        <svg class="spinner" width="5em" height="5em" viewBox="0 0 66 66">
+            <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+        </svg>
+        <div id="preloaderSvg">
+        </div>
+        <div id="preloaderLegend" class="preloader-legend">
+            
+        </div>
+        <div class="version-ao">
+            Versión (1.0)
+        </div>
+    </div>
+    <div id="content"></div>
+</body>
+
+</html>
